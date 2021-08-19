@@ -15,15 +15,17 @@ const ProductList = ({ title, price, use, info, free, exclusive }) => {
           : "custom-shadow-pro"
       }
     >
-      {title === "free" ? (
-        <div className="custom-title-free">{title}</div>
-      ) : title === "lite" ? (
-        <div className="custom-title-lite">{title}</div>
-      ) : title === "lite" ? (
-        <div className="custom-title-lite">{title}</div>
-      ) : (
-        <div className="custom-title-pro">{title}</div>
-      )}
+      <div
+        className={
+          title === "free"
+            ? "custom-title-free"
+            : title === "lite"
+            ? "custom-title-lite"
+            : "custom-title-pro"
+        }
+      >
+        {title}
+      </div>
       {price > 0 ? (
         <div className="price-per-month">
           <sup style={{ fontSize: "1.25rem" }}>$</sup>
