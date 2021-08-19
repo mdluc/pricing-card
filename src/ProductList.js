@@ -6,7 +6,7 @@ const ProductList = ({ title, price, use, info, free, exclusive }) => {
   return (
     <Grid
       item
-      md={12}
+      md={4} 
       id={
         title === "free"
           ? "product"
@@ -26,26 +26,12 @@ const ProductList = ({ title, price, use, info, free, exclusive }) => {
       >
         {title}
       </div>
-      {price > 0 ? (
-        <div className="price-per-month">
-          <sup style={{ fontSize: "1.25rem" }}>$</sup>
-          <p>{price}</p>
-          <p
-            style={{
-              fontSize: "1.25rem",
-              display: "flex",
-              alignItems: "flex-end",
-            }}
-          >
-            /mo
-          </p>
-        </div>
-      ) : (
-        <div className="price-per-month">
-          <sup style={{ fontSize: "1.25rem" }}>$</sup>
-          {price}
-        </div>
-      )}
+
+      <div className="price-per-month">
+        <sup>$</sup>
+        {price}
+        {price > 0 ? <span>/mo</span> : ""}
+      </div>
       <div className="use">{use}</div>
       <h3 className="info">{info}</h3>
       <div className="spacing">
