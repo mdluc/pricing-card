@@ -1,4 +1,5 @@
 const data =[{
+	id:1,
 	title:'free',
 	price:'0',
 	use:'great for starters',
@@ -6,7 +7,7 @@ const data =[{
 	free:['3 new projects / month'],
 	exclusive:['Basic interaction', 'Assets library']
 },
-{
+{	id:2,
 	title:'lite',
 	price:'7',
 	use:'for planned projects',
@@ -14,7 +15,7 @@ const data =[{
 	free:['3 new projects / month'],
 	exclusive:['Basic interaction', 'Assets library']
 },
-{
+{	id:3,
 	title:'pro',
 	price:'12',
 	use:'for professional use',
