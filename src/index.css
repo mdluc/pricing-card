@@ -3,18 +3,15 @@
   /* dark shades of primary color*/
   --clr-primary-1: #f8fafe;
   --clr-primary-2: #24244c;
-  --clr-primary-3: #b577f6;
-  --clr-primary-4: #6e6b84;
-  --clr-primary-5: #7cbc84;
-  --clr-primary-6: #8c8ca4;
-  --clr-primary-7: #433f63;
-  --clr-primary-8:#FFC080;
-  --clr-primary-9:#e8d9fe;
-  --clr-primary-10:#FFB0C6;
-  --clr-primary-11:#C3D4FF;
-  --clr-primary-12:#B26FFE;
-  --clr-primary-13:#C089FF;
-  --clr-primary-14:#97AEDC;
+  --clr-primary-3: #7cbc84;
+  --clr-primary-4: #433f63;
+  --clr-primary-5:#FFC080;
+  --clr-primary-6:#e8d9fe;
+  --clr-primary-7:#FFB0C6;
+  --clr-primary-8:#C3D4FF;
+  --clr-primary-9:#B26FFE;
+  --clr-primary-10:#C089FF;
+  --clr-primary-11:#97AEDC;
 }
 /*
 =============== 
@@ -32,7 +29,7 @@ Global Styles
 body {
   font-family: "Circular Std Book";
   background-color: var(--clr-primary-2);
-  color: var(--clr-primary-7);
+  color: var(--clr-primary-4);
 }
 ul {
   list-style-type: none;
@@ -43,21 +40,21 @@ ul {
   background-color: white;
   margin: 20px;
   border-radius: 5px;
-  box-shadow: 0px 22px 25px -15px var(--clr-primary-14);
+  box-shadow: 0px 22px 25px -15px var(--clr-primary-11);
 }
 
 #custom-shadow-lite{
   background-color: white;
   margin: 20px;
   border-radius: 5px;
-  box-shadow: 0px 22px 25px -15px var(--clr-primary-13);
+  box-shadow: 0px 22px 25px -15px var(--clr-primary-10);
 }
 
 #custom-shadow-pro{
   background-color: white;
   margin: 20px;
   border-radius: 5px;
-  box-shadow: 0px 22px 25px -15px var(--clr-primary-8);
+  box-shadow: 0px 22px 25px -15px var(--clr-primary-5);
 }
 
 .custom-title-free {
@@ -74,8 +71,8 @@ ul {
 
 .custom-title-lite{
   color: var(--clr-primary-1);
-  background: var(--clr-primary-11);
-  background: linear-gradient(90deg, var(--clr-primary-11) 35%,var(--clr-primary-12) 100%);
+  background: var(--clr-primary-8);
+  background: linear-gradient(90deg, var(--clr-primary-8) 35%,var(--clr-primary-9) 100%);
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
@@ -87,8 +84,8 @@ ul {
 
 .custom-title-pro{
   color: var(--clr-primary-1);
-  background: var(--clr-primary-10);
-  background: linear-gradient(90deg, var(--clr-primary-10) 35%, var(--clr-primary-8) 100%);  
+  background: var(--clr-primary-7);
+  background: linear-gradient(90deg, var(--clr-primary-7) 35%, var(--clr-primary-5) 100%);  
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
@@ -123,7 +120,7 @@ ul {
 
 .check-icon {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-3);
 }
 
 .cancel-icon {
@@ -156,6 +153,7 @@ li {
   align-content: center;
   justify-content: center;
 }
+
 .use {
   font-size:1rem;
   text-transform: uppercase;

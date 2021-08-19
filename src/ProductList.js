@@ -1,5 +1,4 @@
 import React from "react";
-import data from "./data";
 import { FaCheck, FaTimes } from "react-icons/fa";
 import Grid from "@material-ui/core/Grid";
 
@@ -42,7 +41,7 @@ const ProductList = ({ title, price, use, info, free, exclusive }) => {
       ) : (
         <div className="price-per-month">
           <sup style={{ fontSize: "1.25rem" }}>$</sup>
-          <p>{price}</p>
+          {price}
         </div>
       )}
       <div className="use">{use}</div>
