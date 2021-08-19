@@ -1,0 +1,217 @@
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: #f8fafe;
+  --clr-primary-2: #24244c;
+  --clr-primary-3: #b577f6;
+  --clr-primary-4: #6e6b84;
+  --clr-primary-5: #7cbc84;
+  --clr-primary-6: #8c8ca4;
+  --clr-primary-7: #433f63;
+  --clr-primary-8:#FFC080;
+  --clr-primary-9:#e8d9fe;
+  --clr-primary-10:#FFB0C6;
+  --clr-primary-11:#C3D4FF;
+  --clr-primary-12:#B26FFE;
+  --clr-primary-13:#C089FF;
+  --clr-primary-14:#97AEDC;
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Circular Std Book";
+  background-color: var(--clr-primary-2);
+  color: var(--clr-primary-7);
+}
+ul {
+  list-style-type: none;
+}
+
+
+#product {
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 22px 25px -15px var(--clr-primary-14);
+}
+
+#custom-shadow-lite{
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 22px 25px -15px var(--clr-primary-13);
+}
+
+#custom-shadow-pro{
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 22px 25px -15px var(--clr-primary-8);
+}
+
+.custom-title-free {
+  background-color: var(--clr-primary-1);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.custom-title-lite{
+  color: var(--clr-primary-1);
+  background: var(--clr-primary-11);
+  background: linear-gradient(90deg, var(--clr-primary-11) 35%,var(--clr-primary-12) 100%);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+  }
+
+.custom-title-pro{
+  color: var(--clr-primary-1);
+  background: var(--clr-primary-10);
+  background: linear-gradient(90deg, var(--clr-primary-10) 35%, var(--clr-primary-8) 100%);  
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--clr-primary-2);
+}
+
+.info {
+  text-align: center;
+}
+
+.perks {
+  font-weight: bold;
+  font-size:1rem;
+  padding: 25px;
+}
+
+.check-icon,
+.cancel-icon {
+  margin-right: 5px;
+}
+
+.check-icon {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+}
+
+.cancel-icon {
+  font-size: 1.5rem;
+  color: #d85878;
+}
+
+.product-container {
+  display: flex;
+  background-color:var(--clr-primary-1);
+  margin: 35px;
+  padding: 35px;
+  border-radius: 10px;
+  max-width: 1170px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  line-height: 3.5;
+}
+
+.price-per-month {
+  padding-top:25px;
+  display: flex;
+  color: var(--clr-primary-2);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  align-content: center;
+  justify-content: center;
+}
+.use {
+  font-size:1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.info {
+  text-align: center;
+  font-size:1.125rem;
+  font-weight: 600;
+  padding: 20px;
+  margin: 0 10px 0 10px;
+}
+
+button {
+  text-align: center;
+  font-family: "Circular Std Book";
+}
+
+.spacing {
+  margin: 25px;
+}
+
+.btn-style {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: var(--clr-primary-2);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1.5px solid var(--clr-primary-2);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn-style:hover {
+  background-color: var(--clr-primary-2);
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .product-container {
+    display: block;
+    margin: 25px;
+    padding: 5px;
+  }
+  #product,#custom-shadow-lite,#custom-shadow-pro{
+    padding:1px;
+  }
+  li{
+    line-height: 1.6;
+  }
+}
