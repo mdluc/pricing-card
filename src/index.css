@@ -34,16 +34,17 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--clr-primary-2);
 }
 
 .product-container {
   display: flex;
+  text-align: center;
   background-color:var(--clr-primary-13);
   margin: 35px;
   padding: 35px;
   border-radius: 10px;
   max-width: 1170px;
+  font-weight: bold;
 }
 
 .shadow-free {
@@ -82,13 +83,11 @@ body {
 .use {
   font-size:1rem;
   text-transform: uppercase;
-  text-align: center;
   margin-bottom: 25px;
   font-weight: bold;
 }
 
 .info {
-  text-align: center;
   font-size:1.125rem;
   font-weight: 600;
   padding: 20px;
@@ -96,7 +95,6 @@ body {
 }
 
 button {
-  text-align: center;
   font-family: "Circular Std Book";
 }
 
@@ -106,9 +104,7 @@ button {
 
 .btn-style {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: white;
+  background-color:var(--clr-primary-1);
   color: var(--clr-primary-2);
   padding: 20px;
   border-radius: 5px;
@@ -121,11 +117,10 @@ button {
 
 .btn-style:hover {
   background-color: var(--clr-primary-2);
-  color: white;
+  color: var(--clr-primary-1);
 }
 
 .perks {
-  font-weight: bold;
   font-size: 1rem;
   padding: 25px;
 }
@@ -177,13 +172,6 @@ li {
   background: var(--clr-primary-7);
   background: linear-gradient(90deg, var(--clr-primary-7) 35%, var(--clr-primary-5) 100%);  
   font-weight: 500;
-}
-
-@media screen and (max-width: 800px) {
-
-      li {
-        line-height: 1.6;
-      }
 }
 
 @media screen and (max-width: 800px) {
