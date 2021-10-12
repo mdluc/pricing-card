@@ -1,0 +1,29 @@
+.custom-title{
+    color: var(--clr-primary-1);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding: 15px;
+    border-radius: 5px;
+    padding:15px;
+    margin:15px;
+}
+
+  .free{
+    color: var(--clr-primary-4);
+    background-color: var(--clr-primary-13);
+    font-weight: 600;
+  }
+  
+  .lite{
+    background: var(--clr-primary-8);
+    background: linear-gradient(90deg, var(--clr-primary-8) 35%,var(--clr-primary-9) 100%);
+    font-weight: 500;
+    }
+  
+  .pro{
+    background: var(--clr-primary-7);
+    background: linear-gradient(90deg, var(--clr-primary-7) 35%, var(--clr-primary-5) 100%);  
+    font-weight: 500;
+  }
+  

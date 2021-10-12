@@ -1,19 +1,20 @@
-import React, { useState } from "react";
-import ProductList from "./ProductList";
-import data from "./data"
+import React from "react";
+import Product from "./Product";
+import data from "./assets/db/data"
 import "./index.css";
+
 import Grid from "@material-ui/core/Grid";
+
 function App() {
-  const [products, setProducts] = useState(data);
   return(
-  <Grid container className="container">
+    <Grid container className="container">
     <main className="product-container">
       {
-        products.map((product)=>{
-          return <ProductList key={product.id}{...product}/>
+        data.map((props)=>{
+          return <Product key={props.id}{...props}/>
         })
       }
-    </main>
+      </main>
   </Grid>
   );
 }
