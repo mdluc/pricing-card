@@ -3,25 +3,26 @@ import { FaCheck, FaTimes } from "react-icons/fa";
 import Grid from "@material-ui/core/Grid";
 
 const ProductList = ({ title, price, use, info, free, exclusive }) => {
+
   return (
     <Grid
       item
       md={4} 
-      id={
+      className={`custom-shadow-${
         title === "free"
-          ? "product"
+          ? "free"
           : title === "lite"
-          ? "custom-shadow-lite"
-          : "custom-shadow-pro"
+          ? "lite"
+          : "pro"}`
       }
     >
       <div
         className={
-          title === "free"
-            ? "custom-title-free"
-            : title === "lite"
-            ? "custom-title-lite"
-            : "custom-title-pro"
+         `custom-title  custom-title-${title === "free"
+         ? "free"
+         : title === "lite"
+         ? "lite"
+         : "pro"}`
         }
       >
         {title}
