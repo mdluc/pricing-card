@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCheck, FaTimes } from "react-icons/fa";
-import "./style.css";
+
 
 const ProductFeatures = ({price,type, free, subscription}) =>{
     return(
