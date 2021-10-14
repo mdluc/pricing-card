@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pricing-card/static/css/main.feae080e.chunk.css",
+    "main.css": "/pricing-card/static/css/main.3c22c55e.chunk.css",
     "main.js": "/pricing-card/static/js/main.7c6d894d.chunk.js",
     "main.js.map": "/pricing-card/static/js/main.7c6d894d.chunk.js.map",
     "runtime-main.js": "/pricing-card/static/js/runtime-main.616c4c4c.js",
@@ -8,15 +8,15 @@
     "static/js/2.9ef09b31.chunk.js": "/pricing-card/static/js/2.9ef09b31.chunk.js",
     "static/js/2.9ef09b31.chunk.js.map": "/pricing-card/static/js/2.9ef09b31.chunk.js.map",
     "index.html": "/pricing-card/index.html",
-    "precache-manifest.cfa682a9909a870c88bc2dae839ab3c2.js": "/pricing-card/precache-manifest.cfa682a9909a870c88bc2dae839ab3c2.js",
+    "precache-manifest.d832ebaa635b3bb3e19afd43c8d9b5f8.js": "/pricing-card/precache-manifest.d832ebaa635b3bb3e19afd43c8d9b5f8.js",
     "service-worker.js": "/pricing-card/service-worker.js",
-    "static/css/main.feae080e.chunk.css.map": "/pricing-card/static/css/main.feae080e.chunk.css.map",
+    "static/css/main.3c22c55e.chunk.css.map": "/pricing-card/static/css/main.3c22c55e.chunk.css.map",
     "static/js/2.9ef09b31.chunk.js.LICENSE.txt": "/pricing-card/static/js/2.9ef09b31.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.616c4c4c.js",
     "static/js/2.9ef09b31.chunk.js",
-    "static/css/main.feae080e.chunk.css",
+    "static/css/main.3c22c55e.chunk.css",
     "static/js/main.7c6d894d.chunk.js"
   ]
 }
