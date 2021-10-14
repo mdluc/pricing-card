@@ -2,7 +2,7 @@ import React from "react";
 import { FaCheck, FaTimes } from "react-icons/fa";
 
 
-const ProductFeatures = ({id, price,type, free, subscription}) =>{
+const ProductFeatures = ({price, type, free, subscription}) =>{
     return(
   <ul className="perks">
           <li>
