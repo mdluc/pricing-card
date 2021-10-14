@@ -92,7 +92,6 @@ body {
   font-size:1.125rem;
   font-weight: 600;
   padding: 20px;
-  margin: 0 10px 0 10px;
 }
 
 button {
@@ -106,7 +105,6 @@ button {
 .btn-style {
   width: 100%;
   background-color:var(--clr-primary-1);
-  color: var(--clr-primary-2);
   padding: 20px;
   border-radius: 5px;
   border: 1.5px solid var(--clr-primary-2);
