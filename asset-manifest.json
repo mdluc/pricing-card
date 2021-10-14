@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pricing-card/static/css/main.691f7c72.chunk.css",
-    "main.js": "/pricing-card/static/js/main.7c6d894d.chunk.js",
-    "main.js.map": "/pricing-card/static/js/main.7c6d894d.chunk.js.map",
+    "main.css": "/pricing-card/static/css/main.c16bb3e4.chunk.css",
+    "main.js": "/pricing-card/static/js/main.2acad46c.chunk.js",
+    "main.js.map": "/pricing-card/static/js/main.2acad46c.chunk.js.map",
     "runtime-main.js": "/pricing-card/static/js/runtime-main.616c4c4c.js",
     "runtime-main.js.map": "/pricing-card/static/js/runtime-main.616c4c4c.js.map",
     "static/js/2.9ef09b31.chunk.js": "/pricing-card/static/js/2.9ef09b31.chunk.js",
     "static/js/2.9ef09b31.chunk.js.map": "/pricing-card/static/js/2.9ef09b31.chunk.js.map",
     "index.html": "/pricing-card/index.html",
-    "precache-manifest.9cefc4dc1b9ed8c58b0546fa821c6b4b.js": "/pricing-card/precache-manifest.9cefc4dc1b9ed8c58b0546fa821c6b4b.js",
+    "precache-manifest.01df0c6fe4f3af5ab340501640e1abea.js": "/pricing-card/precache-manifest.01df0c6fe4f3af5ab340501640e1abea.js",
     "service-worker.js": "/pricing-card/service-worker.js",
-    "static/css/main.691f7c72.chunk.css.map": "/pricing-card/static/css/main.691f7c72.chunk.css.map",
+    "static/css/main.c16bb3e4.chunk.css.map": "/pricing-card/static/css/main.c16bb3e4.chunk.css.map",
     "static/js/2.9ef09b31.chunk.js.LICENSE.txt": "/pricing-card/static/js/2.9ef09b31.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.616c4c4c.js",
     "static/js/2.9ef09b31.chunk.js",
-    "static/css/main.691f7c72.chunk.css",
-    "static/js/main.7c6d894d.chunk.js"
+    "static/css/main.c16bb3e4.chunk.css",
+    "static/js/main.2acad46c.chunk.js"
   ]
 }
