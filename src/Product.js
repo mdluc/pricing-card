@@ -13,8 +13,8 @@ const Product = (props) => {
       className={`shadow-${type}`}      
     >
         <ProductTitle type={type}/>
-        <ProductDetails price={price} use={use} info={info}/>
-        <ProductFeatures price={price} free={free} subscription={subscription} />
+        <ProductDetails price={price} use={use} info={info} type={type}/>
+        <ProductFeatures price={price} free={free} subscription={subscription}/>
     </Grid>
   );
 };
