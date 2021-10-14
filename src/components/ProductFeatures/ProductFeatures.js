@@ -9,16 +9,16 @@ const ProductFeatures = ({price,type, free, subscription}) =>{
             <FaCheck className="check-icon" />
             {free}
           </li>
-          {subscription.map((i) =>
+          {subscription.map((index,item) =>
             price > 0 ? (
-              <li>
+              <li key={index}>
                 <FaCheck className="check-icon" />
-                {i}
+                {item}
               </li>
             ) : (
-              <li>
+              <li key={index}>
                 <FaTimes className="cancel-icon" />
-                {i}
+                {item}
               </li>
             )
           )}
